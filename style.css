@@ -1,0 +1,28 @@
+header{
+    text-align: center;
+    font-size: 30px;
+    font-family: Helvetica;
+    padding: 10px;
+}
+body{
+    text-align: center;
+    background-color: cadetblue;
+}
+section{
+    border-radius: 10px;
+    background: aliceblue;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.363);
+    font-size: 20px 
+}
+input{
+    width: 200px;
+    padding: 3px;
+    border-radius: 5px;
+}
+button{
+    width: 80px;
+    padding: 3px;
+}
