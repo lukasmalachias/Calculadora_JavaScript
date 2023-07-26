@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>Calculadora JavaScript</header>
+    
+    <section>
+        Preencha os campos abaixo e click na operação desejada.</br></br>
+
+        Qual seu nome:  <input type="text"  name="name" id="name"></input></br></br>
+        Primeiro Valor: <input type="number" name="numone" id="numone"></br></br>
+        Segundo Valor:  <input type="number" name="numtwo" id="numtwo"></br></br>
+                        <button onclick="somar()"> Somar </button>
+                        <button onclick="subtrair()"> Subtrair </button>
+                        <button onclick="multiplicar()"> Multiplicar </button>
+                        <button onclick="dividir()"> Dividir </button></br></br>
+                        
+        <div id="res">
+            Aguardando dados...
+        </div>
+    </section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
